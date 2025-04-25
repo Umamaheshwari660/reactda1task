@@ -1,0 +1,139 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* #sports{
+  display: flex;
+}
+#chess,#cricket,#Football,#Batminition{
+  border: 2px solid black;
+  padding: 10px !important;
+} */
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+}
+
+.navbar {
+  background-color: #aae0a8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.menu button,
+.auth button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #dd267f;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.auth button.login {
+  background-color: rgb(57, 174, 221);
+  filter: drop-shadow(0 0 2em #2cc112aa);
+}
+
+.auth button.signup {
+  background-color: #37bedf;
+  filter: drop-shadow(0 0 2em #07d54caa);
+}
+
+.menu button:hover,
+.auth button:hover {
+  background-color: #14c522;
+  transform: scale(1.05);
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2rem;
+  color: #172a3a;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card {
+  background-color: purple;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(16, 16, 16, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+
+

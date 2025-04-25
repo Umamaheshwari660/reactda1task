@@ -1,0 +1,78 @@
+/* #navbar_Container{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar_links, #navbar_btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#navbar_links > p {
+   cursor: pointer;
+   background-color: lightcoral;
+   color: white;    
+   padding: 4px 10px;
+   border-radius: 3px;
+   transition: all ease-in-out 0.4s;
+}
+
+#navbar_links > p:hover, #navbar_btns > span:hover{
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+#navbar_btns > span{
+     background-color: purple;
+     color: white;
+     padding: 4px 10px;
+     border-radius: 4px;
+   transition: all ease-in-out 0.4s;
+cursor: pointer;
+} */
+
+#navbar_Container {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0; 
+  }
+  
+  #navbar_links,
+  #navbar_btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  #navbar_links > p,
+  #navbar_btns > span {
+    padding: 4px 10px;
+    border-radius: 4px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+  }
+  
+  #navbar_links > p {
+    background-color: lightcoral;
+    color: white;
+  }
+  
+  #navbar_btns > span {
+    background-color: purple;
+    color: white;
+  }
+  
+  #navbar_links > p:hover,
+  #navbar_btns > span:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black; 
+  }
+  
